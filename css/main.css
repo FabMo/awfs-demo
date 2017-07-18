@@ -1,0 +1,42 @@
+.job-list, .main-card{
+    padding: 0.5em;
+}
+
+#run-file{
+    margin: 0.5rem;
+}
+
+ .main-card{
+     height: 95%;
+    position: fixed;
+    top: 0;
+    left: 20000px;
+    width: 100%;
+    -webkit-transition: left 0.5s ;
+    -moz-transition: left 0.5s ;
+    transition: left 0.5s ;
+     overflow: scroll;
+} 
+
+@media screen and (max-width: 700px) {
+    .level-item div p:first-child{
+        font-size: 10px;
+      
+    }
+    .level-item div p:nth-child(2){
+        font-size: 10px;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .level-item div p:first-child{
+        font-size: 8px;
+      
+    }
+    .level-item div p:nth-child(2){
+        font-size: 8px;
+     
+    }
+}
+

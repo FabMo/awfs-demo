@@ -1,0 +1,15 @@
+{
+	"name": "AWFS",
+	"main": "./index.html",
+	"icon": "icon.png",
+	"icon_color": "#313366",
+	"icon_display": "none",
+	"version": "0.0.1",
+	"author": "Brendan Collins",
+	"website": "http://shopbottools.com",
+	"description": "Demo Work Order App for AWFS",
+	"dependencies": {
+		"grunt": "^1.0.1",
+		"grunt-zip": "^0.17.1"
+	}
+}
